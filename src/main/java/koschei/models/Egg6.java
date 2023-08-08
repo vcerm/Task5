@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 public class Egg6 {
     @Autowired
-    Needle7 needle7;
+    private Needle7 needle7;
 
     @Override
     public String toString() {

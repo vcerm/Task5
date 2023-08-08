@@ -5,9 +5,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Needle7 {
-    Deth8 deth8;
+    private Deth8 deth8;
+
     @Autowired
-    public Needle7 (Deth8 deth) {
+    public Needle7(Deth8 deth) {
         this.deth8 = deth;
     }
 
